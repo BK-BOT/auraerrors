@@ -1,0 +1,34 @@
+20:11:54 0|worker  | Error: BatchRequest error: [{}]
+20:11:54 0|worker  |     at /usr/aurad/node_modules/web3-providers/dist/web3-providers.cjs.js:789:17
+20:11:54 0|worker  |     at process._tickCallback (internal/process/next_tick.js:68:7)
+20:11:54 0|worker  | Error fetching blocks, retry in 5 seconds
+20:11:55 0|worker  | { SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+20:11:55 0|worker  |     at new SentryError (/usr/aurad/node_modules/@sentry/core/dist/error.js:9:28)
+20:11:55 0|worker  |     at ClientRequest.<anonymous> (/usr/aurad/node_modules/@sentry/node/dist/transports/base.js:51:44)
+20:11:55 0|worker  |     at Object.onceWrapper (events.js:273:13)
+20:11:55 0|worker  |     at ClientRequest.emit (events.js:182:13)
+20:11:55 0|worker  |     at ClientRequest.EventEmitter.emit (domain.js:441:20)
+20:11:55 0|worker  |     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:556:21)
+20:11:55 0|worker  |     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+20:11:55 0|worker  |     at TLSSocket.socketOnData (_http_client.js:442:20)
+20:11:55 0|worker  |     at TLSSocket.emit (events.js:182:13)
+20:11:55 0|worker  |     at TLSSocket.EventEmitter.emit (domain.js:441:20)
+20:11:55 0|worker  |     at addChunk (_stream_readable.js:283:12)
+20:11:55 0|worker  |     at readableAddChunk (_stream_readable.js:264:11)
+20:11:55 0|worker  |     at TLSSocket.Readable.push (_stream_readable.js:219:10)
+20:11:55 0|worker  |     at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) name: 'SentryError' }
+20:11:55 0|worker  | { SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+20:11:55 0|worker  |     at new SentryError (/usr/aurad/node_modules/@sentry/core/dist/error.js:9:28)
+20:11:55 0|worker  |     at ClientRequest.<anonymous> (/usr/aurad/node_modules/@sentry/node/dist/transports/base.js:51:44)
+20:11:55 0|worker  |     at Object.onceWrapper (events.js:273:13)
+20:11:55 0|worker  |     at ClientRequest.emit (events.js:182:13)
+20:11:55 0|worker  |     at ClientRequest.EventEmitter.emit (domain.js:441:20)
+20:11:55 0|worker  |     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:556:21)
+20:11:55 0|worker  |     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+20:11:55 0|worker  |     at TLSSocket.socketOnData (_http_client.js:442:20)
+20:11:55 0|worker  |     at TLSSocket.emit (events.js:182:13)
+20:11:55 0|worker  |     at TLSSocket.EventEmitter.emit (domain.js:441:20)
+20:11:55 0|worker  |     at addChunk (_stream_readable.js:283:12)
+20:11:55 0|worker  |     at readableAddChunk (_stream_readable.js:264:11)
+20:11:55 0|worker  |     at TLSSocket.Readable.push (_stream_readable.js:219:10)
+20:11:55 0|worker  |     at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17) name: 'SentryError' }
